@@ -1,0 +1,62 @@
+[
+    {
+        "Product SKU": "P001",
+        "Product Name": "Laptop",
+        "Brand": "Dell",
+        "Quantity": 25
+    },
+    {
+        "Product SKU": "P002",
+        "Product Name": "Smartphone",
+        "Brand": "Apple",
+        "Quantity": 50
+    },
+    {
+        "Product SKU": "P003",
+        "Product Name": "Tablet",
+        "Brand": "Samsung",
+        "Quantity": 30
+    },
+    {
+        "Product SKU": "P004",
+        "Product Name": "Headphones",
+        "Brand": "Sony",
+        "Quantity": 75
+    },
+    {
+        "Product SKU": "P005",
+        "Product Name": "Monitor",
+        "Brand": "LG",
+        "Quantity": 40
+    },
+    {
+        "Product SKU": "P006",
+        "Product Name": "Printer",
+        "Brand": "HP",
+        "Quantity": 15
+    },
+    {
+        "Product SKU": "P007",
+        "Product Name": "Keyboard",
+        "Brand": "Logitech",
+        "Quantity": 60
+    },
+    {
+        "Product SKU": "P008",
+        "Product Name": "Mouse",
+        "Brand": "Razer",
+        "Quantity": 100
+    },
+    {
+        "Product SKU": "P009",
+        "Product Name": "Smartwatch",
+        "Brand": "Fitbit",
+        "Quantity": 20
+    },
+    {
+        "Product SKU": "P010",
+        "Product Name": "Camera",
+        "Brand": "Canon",
+        "Quantity": 5
+    }
+]
