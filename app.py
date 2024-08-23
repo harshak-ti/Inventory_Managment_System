@@ -1,6 +1,4 @@
-from File_Handler import File_Handler
-# from utils.operation import *
-from ProductManager import ProductManager
+from Database_Handler import Database_Handler
 
 
 # User Input handler function
@@ -32,7 +30,17 @@ def user_input_func(product_manager,file):
             print(f"Invalid Entry: {e}")
 
 if __name__ == "__main__":
-    file=File_Handler("Productdata.json")
+    db=Database_Handler("inventory.db")
+
+    fields = [
+        "Product_SKU TEXT PRIMARY KEY",
+        "Product_Name TEXT NOT NULL",
+        "Brand TEXT NOT NULL",
+        "Quantity INTEGER NOT NULL"
+    ]
+
+    db.create_table('products',fields)
+    
     product_data = file.load_product_data()
     product_manager=ProductManager(product_data)
-    user_input_func(product_manager,file)
+    user_input_func(product_manager,db)
